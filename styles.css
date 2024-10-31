@@ -1,7 +1,7 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgba(0,1,5,255); padding: 0;
-    margin: 0; font-size: 50%;  max-height: 100%;
+    margin: 0; font-size: 60%;  max-height: 100%;
 }
 .sub-body{
     display: grid;
@@ -62,7 +62,7 @@ body{
     display: flex; flex-direction: column; gap: 10px;
 }
 .listening-to-music-text,.watching-movies-text{
-    font-size: 13px; font-weight: 600;
+    font-size: 80%; font-weight: 600;
 }
 .listening-to-music-details,.watching-movies-details{
     color: rgba(134,135,139,255); line-height: 18px
