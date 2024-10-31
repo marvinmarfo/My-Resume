@@ -1,0 +1,193 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0,1,5,255); padding: 0;
+    margin: 0; font-size: 50%;  max-height: 100%;
+}
+.sub-body{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.main{
+
+}
+.left-side{
+    background-color: rgba(211,212,217,255);
+    padding-left: 10%; padding-right: 20px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.hr1{
+    margin-block: 25px;
+}
+.logo{
+    width: 30px;
+    height: 30px; background-color: white;
+    border-radius: 18px;
+}
+.profile-line,.skills-line,.languages-line,.hobbies-line{
+    display: flex; gap: 5%; align-items: center;
+    height: 25px;  background: white; width: 100%; 
+    border-top-left-radius: 20px; border-bottom-left-radius: 20px; display: flex;text-wrap: wrap;
+    
+}
+.user-image{
+    width: 150px; height: 150px;
+    border-radius: 80%;
+}
+.user-image-div{
+    height: 200px;display: flex; justify-content: center;
+}
+.profile-message{
+    font-size: 130%; line-height: 18px; color: rgba(134,135,139,255);
+}
+.profile,.skills,.languages{
+    display: flex; flex-direction: column;
+    gap: 10px;
+}
+.skills-body,.languages-body{
+    display: flex; flex-direction: column;
+    gap: 18px;
+}
+.skills-text,.profile-text,.languages-text,.hobbies-text,.job-experience-text,.education-text{
+    font-size: 100%; font-weight: 600; 
+}
+.hobbies-body{
+    padding-left: auto; display: flex; flex-direction: column;
+    gap: 10px;
+}
+.text{
+    font-size: 13px; font-weight: 600; color: rgb(70, 70, 70);
+}
+.hobbies{
+    display: flex; flex-direction: column; gap: 10px;
+}
+.listening-to-music-text,.watching-movies-text{
+    font-size: 13px; font-weight: 600;
+}
+.listening-to-music-details,.watching-movies-details{
+    color: rgba(134,135,139,255); line-height: 18px
+}
+.bar{
+    width: 60%; background-color: white;
+    height: 20px;
+}    
+.html{
+    max-width: 90%; height: 20px; 
+    animation: html 3s; background: rgba(10,16,28,255) 
+}
+.css{
+    max-width: 80%; height: 20px; 
+    animation: html 3s; background: rgba(10,16,28,255) 
+}
+.javascript{
+    max-width: 40%; height: 20px; 
+    animation: html 3s; background: rgba(10,16,28,255) 
+}
+.react-native{
+    max-width: 40%; height: 20px; 
+    animation: html 3s; background: rgba(10,16,28,255) 
+}
+.graphic{
+    max-width: 70%; height: 20px; 
+    animation: html 3s; background: rgba(10,16,28,255) 
+}
+.english{
+    max-width: 95%; height: 20px; 
+    animation: html 3s; background: rgba(10,16,28,255) 
+}
+.twi{
+    max-width: 100%; height: 20px; 
+    animation: html 3s; background: rgba(10,16,28,255) 
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.bar-line{
+    display: flex; justify-content: space-between;
+    align-items: center;
+}
+.right-side{
+    padding-left: 10%; padding-top: 110px; display: flex; flex-direction: column; padding-right: ;
+    gap: 40px; width: 76%;
+}
+.job-header,.school-header{
+    display: grid; font-size: 100%; color: rgba(134,135,139,255);
+    grid-template-columns: 45% 28% 25%; gap: 3%; width: 95%;
+}
+.job-line,.education-line{
+    display: flex; gap: 5%;
+}
+.user-name{
+    font-size: 25px; font-weight: 600; 
+}
+.user-title{
+    font-size: 15px; font-weight: 500; color:rgba(134,135,139,255);
+
+}
+.right-side-top{
+    display: flex; flex-direction: column;
+    padding-bottom: 18px; justify-content: center; align-items: center;
+}
+.school-container, .job-container{
+    display: flex;
+    flex-direction: column; gap: 20px;
+    padding-left: 12%;
+}
+.job-experience,.education{
+    display: flex; flex-direction: column;
+    gap: 15px;
+}
+.job-experience-underlined, .education-underlined{
+    width: 100%;
+}
+.job, .school{
+    display: flex; flex-direction: column;
+    gap: 8px;
+}
+.down-footer{
+    height: 80px; width: 100%;
+    background-color: rgba(10,16,28,255);
+    display: flex; justify-content: space-evenly;
+}
+.top-footer{
+    width: 100%;
+    height: 35px; display: grid;
+    grid-template-columns: 40% 30% 30%;
+}
+.first-blue{
+    background-color: #1f89b3;
+}
+.third-blue{
+    background-color: #1f89b3;
+}
+.second-blue{
+    background-color: #549dbd;
+}
+.bottom-logo{
+    width: 40px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    margin-top: -20px;
+}
+.text-down{
+    color: white; 
+}
+.phone,.mail,.home{
+    display: flex;
+    flex-direction: column; align-items: center;
+    gap: 5px;
+}
+.phone-text,.mail-text,.home-text{
+    display: flex; flex-direction: column; gap: 3px;
+}
+a{
+    color: white; text-decoration: none;
+}
+.footer{
+    position: sticky; bottom: 0; left: 0; right: 0;
+}
