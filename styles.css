@@ -1,18 +1,24 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgba(0,1,5,255); padding: 0;
-    margin: 0; font-size: 60%;  max-height: 100%;
+    margin: 0;
 }
 .sub-body{
     display: grid;
     grid-template-columns: 40% 60%;
 }
+@media (max-width: 934px){
+    .sub-body{
+        display: flex; flex-direction: column;
+    }
+    
+}
 .main{
-
+    position: absolute; top: 0;
 }
 .left-side{
     background-color: rgba(211,212,217,255);
-    padding-left: 10%; padding-right: 20px;
+    padding-left: 40px; padding-right: 30px;
     padding-top: 60px;
     padding-bottom: 50px;
 }
@@ -38,34 +44,38 @@ body{
     height: 200px;display: flex; justify-content: center;
 }
 .profile-message{
-    font-size: 130%; line-height: 18px; color: rgba(134,135,139,255);
+    font-size: 18px; line-height: auto; color: rgba(134,135,139,255);
 }
 .profile,.skills,.languages{
     display: flex; flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 .skills-body,.languages-body{
     display: flex; flex-direction: column;
     gap: 18px;
 }
 .skills-text,.profile-text,.languages-text,.hobbies-text,.job-experience-text,.education-text{
-    font-size: 100%; font-weight: 600; 
+    font-size: 20px; font-weight: 600; 
 }
 .hobbies-body{
     padding-left: auto; display: flex; flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 .text{
-    font-size: 13px; font-weight: 600; color: rgb(70, 70, 70);
+    font-size: 15px; font-weight: 600; color: rgb(70, 70, 70);
 }
 .hobbies{
+    display: flex; flex-direction: column; gap: 25px;
+}
+.listening-to-music,.watching-movies{
     display: flex; flex-direction: column; gap: 10px;
 }
 .listening-to-music-text,.watching-movies-text{
-    font-size: 80%; font-weight: 600;
+    font-size: 186x; font-weight: 600;
 }
 .listening-to-music-details,.watching-movies-details{
-    color: rgba(134,135,139,255); line-height: 18px
+    color: rgba(134,135,139,255); line-height: auto;
+    font-size: 17px;
 }
 .bar{
     width: 60%; background-color: white;
@@ -112,12 +122,15 @@ body{
     align-items: center;
 }
 .right-side{
-    padding-left: 10%; padding-top: 110px; display: flex; flex-direction: column; padding-right: ;
-    gap: 40px; width: 76%;
+    padding-left: 10%; padding-top: 110px; display: flex; flex-direction: column; 
+    gap: 90px; width: 76%;  padding-bottom: 150px;
 }
 .job-header,.school-header{
-    display: grid; font-size: 100%; color: rgba(134,135,139,255);
+    display: grid; font-size: 19px; color: rgba(134,135,139,255);
     grid-template-columns: 45% 28% 25%; gap: 3%; width: 95%;
+}
+.job-detail, .school-detail{
+    font-size: 18px;
 }
 .job-line,.education-line{
     display: flex; gap: 5%;
@@ -135,22 +148,25 @@ body{
 }
 .school-container, .job-container{
     display: flex;
-    flex-direction: column; gap: 20px;
+    flex-direction: column; gap: 40px;
     padding-left: 12%;
 }
 .job-experience,.education{
     display: flex; flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 }
 .job-experience-underlined, .education-underlined{
     width: 100%;
 }
+.job-experience-text, .education-text{
+    font-size: 22px;
+}
 .job, .school{
     display: flex; flex-direction: column;
-    gap: 8px;
+    gap: 30px;
 }
 .down-footer{
-    height: 80px; width: 100%;
+    min-height: 80px; width: 100%;
     background-color: rgba(10,16,28,255);
     display: flex; justify-content: space-evenly;
 }
@@ -189,5 +205,5 @@ a{
     color: white; text-decoration: none;
 }
 .footer{
-    position: sticky; bottom: 0; left: 0; right: 0;
+    position: sticky; bottom: 0; left: 0; right: 0; font-size: 11px;
 }
