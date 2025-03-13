@@ -11,7 +11,43 @@ body{
     .sub-body{
         display: flex; flex-direction: column;
     }
+    /* .footer{
+        position: sticky; bottom: 0; left: 0; right: 0; font-size: 11px;
+    }
+    .job-experience-text, .education-text{
+        font-size: 22px;
+    }
+    .user-title{
+        font-size: 15px; font-weight: 500; color:rgba(134,135,139,255);
     
+    }
+    .user-name{
+        font-size: 25px; font-weight: 600; 
+    }
+    .job-detail, .school-detail{
+        font-size: 18px;
+    }
+    .job-header,.school-header{
+        display: grid; font-size: 19px; color: rgba(134,135,139,255);
+        grid-template-columns: 45% 28% 25%; gap: 3%; width: 95%;
+    }
+    .listening-to-music-details,.watching-movies-details{
+        color: rgba(134,135,139,255); line-height: auto;
+        font-size: 17px;
+    }
+    .listening-to-music-text,.watching-movies-text{
+        font-size: 186x; font-weight: 600;
+    }
+    .text{
+        font-size: 15px; font-weight: 600; color: rgb(70, 70, 70);
+    }
+    .skills-text,.profile-text,.languages-text,.hobbies-text,.job-experience-text,.education-text{
+        font-size: 20px; font-weight: 600; 
+    }
+    .profile-message{
+        font-size: 18px; line-height: auto; color: rgba(134,135,139,255);
+    }
+     */
 }
 .main{
     position: absolute; top: 0;
